@@ -1,0 +1,56 @@
+{
+  "description": "A material design-style range-slider, composed of paper-slider elements",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "slider"
+  ],
+  "homepage": "https://github.com/IftachSadeh/paper-range-slider/",
+  "name": "@belomx/paper-range-slider",
+  "version": "1.0.3",
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0"
+  },
+  "main": "paper-range-slider.js",
+  "author": "Iftach Sadeh <iftach.sadeh@desy.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "@polymer/iron-a11y-keys-behavior": "^3.0.0-pre.18",
+    "@polymer/iron-behaviors": "^3.0.0-pre.18",
+    "@polymer/iron-flex-layout": "^3.0.0-pre.18",
+    "@polymer/iron-form-element-behavior": "^3.0.0-pre.18",
+    "@polymer/paper-behaviors": "^3.0.0-pre.18",
+    "@polymer/paper-input": "^3.0.0-pre.18",
+    "@polymer/paper-progress": "^3.0.0-pre.18",
+    "@polymer/paper-styles": "^3.0.0-pre.18",
+    "@polymer/polymer": "^3.0.0",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "paper-range-slider": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-component-page": "^3.0.0-pre.18",
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
+    "@polymer/test-fixture": "^3.0.0-pre.18",
+    "@polymer/iron-test-helpers": "^3.0.0-pre.18",
+    "polymer-cli": "^1.7.0-pre.17",
+    "wct-browser-legacy": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belomx/paper-range-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belomx/paper-range-slider/issues"
+  }
+}

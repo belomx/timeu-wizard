@@ -1,7 +1,4 @@
-[![Build Status](https://travis-ci.org/timeu/timeu-wizard.svg)](https://travis-ci.org/timeu/timeu-wizard) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/timeu/timeu-wizard)
-
-_[Demo and API Docs](https://www.webcomponents.org/element/timeu/timeu-wizard)_
-
+_[Demo and API Docs](https://www.webcomponents.org/element/belomx/timeu-wizard)_
 
 ## &lt;timeu-wizard&gt;
 
@@ -10,28 +7,15 @@ By default the step number is displayed inside the circle and if provided a labe
 The available steps are provided by either as an `array` of `Objects` or an `array` of `Strings`.
 
 
-**This branch (master) works only with Polymer 2.x. For a Polymer 1.x version check out the 1.x branch**
+**This branch (master) works only with Polymer 3.x. **
 
-## Versions (Polymer 2.x vs Polymer 1.x)
-The *master* branch and all *2.x.x* releases require `Polymer 2.x`.
-For `Polymer 1.x` support use *1.x.x* releases and the [1.x branch](https://github.com/timeu/timeu-wizard/tree/1.x).
+## Versions (Polymer 3.x)
+The *master* branch and all *3.x.x* .
 
 ## How to use
 
 Simple example:
 
-
-
-<!--
-```
-<custom-element-demo>
-  <template>
-      <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-      <link rel="import" href="timeu-wizard.html">
-      <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
 -->
 ```html
 <timeu-wizard steps='["Step1","Step2","Step3"]' step="2"></timeu-wizard>
