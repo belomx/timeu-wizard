@@ -1,14 +1,14 @@
 {
-  "description": "A material design-style range-slider, composed of paper-slider elements",
+  "description": "A wizard design-style for easy use",
   "keywords": [
     "web-component",
     "web-components",
     "polymer",
     "slider"
   ],
-  "homepage": "https://github.com/IftachSadeh/paper-range-slider/",
-  "name": "@belomx/paper-range-slider",
-  "version": "1.0.3",
+  "homepage": "https://github.com/belomx/timeu-wizard/",
+  "name": "@belomx/timeu-wizard",
+  "version": "1.7.3",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
@@ -16,7 +16,7 @@
     "type-detect": "1.0.0"
   },
   "main": "paper-range-slider.js",
-  "author": "Iftach Sadeh <iftach.sadeh@desy.de>",
+  "author": "Belomx <danilo.q.freire@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.0",
