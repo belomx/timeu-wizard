@@ -1,7 +1,7 @@
 import '@webcomponents/shadycss/apply-shim.min.js';
 import '@polymer/polymer/lib/utils/render-status.js'
 import '@polymer/polymer/lib/elements/dom-repeat.js';
-import {} from '@polymer/polymer/lib/utils/async.js';
+import { microTask } from '@polymer/polymer/lib/utils/async.js';
 import { GestureEventListeners } from '@polymer/polymer/lib/mixins/gesture-event-listeners.js';
 import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import { PolymerElement } from '@polymer/polymer/polymer-element.js';
