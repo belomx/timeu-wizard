@@ -33,7 +33,19 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          left: 50%;
          height: calc(100% - var(--timeu-wizard-circle-size,40px));
        }
-       
+      
+       :host([vertical][right]) .label {
+	 position: absolute;
+         top: 0.3em;
+         right: 0;
+       }
+
+       :host([vertical][left]) .label {
+	 position: absolute;
+         top: 0.3em;
+         left: 0;
+       }
+
        ul {
          display: flex;
          justify-content: space-between;
@@ -124,7 +136,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          border: var(--timeu-wizard-circle-border-size,1px) solid var(--timeu-wizard-filling-color,#dfdfdf);
          display: block;
          text-align: center;
-         font-family:var(--timeu-wizard-step-font-family);
+         font-family:var(--timeu-wizard-step-font-family, FontAwesome);
          margin: 0 auto 5px auto;
          border-radius: 50%;
          background-color: white;
@@ -135,7 +147,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
        
          @apply --timeu-wizard-list-item-icon;
        }
-       
+
        #wizard li.active, #wizard li.done  {
          color: var(--timeu-wizard-active-color,#2db36f);
          @apply --timeu-wizard-list-item-active;
@@ -242,6 +254,15 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
         reflectToAttribute: true
       }
     }
+  }
+
+  constructor() {
+    super();
+    this.iclass="";
+    const fontEl = document.createElement('link');
+    fontEl.rel = 'stylesheet';
+    fontEl.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+    document.head.appendChild(fontEl);
   }
 
   // Element Lifecycle

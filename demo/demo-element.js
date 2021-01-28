@@ -80,7 +80,11 @@ class DemoElement extends PolymerElement {
       </div>
 
       <p>Example for vertical <code>&lt;timeu-wizard vertical&gt;</code>:</p>
-      <div style="height:500px;width:50px;">
+      <div style="height:500px;width:100%;display:flex;justify-content:space-between;">
+        <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical right step="{{verticalStep}}">
+        </timeu-wizard>
+        <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical left step="{{verticalStep}}">
+        </timeu-wizard>
         <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical step="{{verticalStep}}">
         </timeu-wizard>
       </div>
