@@ -18,6 +18,10 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          height:100%;
          @apply --timeu-wizard ;
        }
+
+       :host([clickableStep]) .checkicon {
+         cursor: pointer;
+       }
        
        :host([horizotnal]) ul {
          flex-direction: row;
