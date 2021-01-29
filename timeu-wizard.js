@@ -19,7 +19,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          @apply --timeu-wizard ;
        }
 
-       :host([clickableStep]) .checkicon {
+       :host([clickable-step]) .checkicon {
          cursor: pointer;
        }
        
