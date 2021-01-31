@@ -19,7 +19,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          @apply --timeu-wizard ;
        }
 
-       :host([clickable-step]) .checkicon {
+       :host([clickablestep]) .checkicon {
          cursor: pointer;
        }
        
@@ -267,7 +267,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
         reflectToAttribute: true,
         value: false
       },
-      clickable-step: {
+      clickablestep: {
         type: Boolean,
         reflectToAttribute: true,
         value: false
