@@ -256,6 +256,21 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
         type: Boolean,
         value: false,
         reflectToAttribute: true
+      },
+      left: {
+        type: Boolean,
+        reflectToAttribute: true,
+        value: false
+      },
+      right: {
+        type: Boolean,
+        reflectToAttribute: true,
+        value: false
+      },
+      clickableStep: {
+        type: Boolean,
+        reflectToAttribute: true,
+        value: false
       }
     }
   }

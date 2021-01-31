@@ -85,7 +85,7 @@ class DemoElement extends PolymerElement {
         </timeu-wizard>
         <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical left step="{{verticalStep}}">
         </timeu-wizard>
-        <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical clickableStep step="{{verticalStep}}" on-timeu-wizard-item-tap="moveStep">
+        <timeu-wizard id="vertical" steps='["Step 1","Step 2","Step3","Step4"]' vertical clickable-step step="{{verticalStep}}" on-timeu-wizard-item-tap="moveStep">
         </timeu-wizard>
       </div>
       <div class="controls">
