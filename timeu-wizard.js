@@ -230,6 +230,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
       */
       step: {
         type: Number,
+	reflectToAttribute: true,
         notify: true,
         value: 1,
         observer: '_validateStep'
@@ -242,6 +243,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
       */
       steps: {
         type: Array,
+	reflectToAttribute: true,
         value: function() {
           return [];
         }
@@ -288,6 +290,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
 
   connectedCallback() {
     super.connectedCallback();
+
     beforeNextRender(this, function() {
       this._width = this.getBoundingClientRect().width;
     });
