@@ -26,6 +26,7 @@ class DemoElement extends PolymerElement {
       #css {
         --timeu-wizard-line-color: yellow;
         --timeu-wizard-line-size: 3px;
+	--timeu-wizard-line-filling-color: blueviolet;
         --timeu-wizard-circle-size: 60px;
         --timeu-wizard-filling-color: red;
         --timeu-wizard-anim-speed: 1s;
@@ -64,6 +65,7 @@ class DemoElement extends PolymerElement {
       <p><code>--timeu-wizard-line-color: yellow;<br>
             --timeu-wizard-line-size: 3px;<br>
             --timeu-wizard-circle-size: 60px;<br>
+            --timeu-wizard-line-filling-color: blueviolet;<br>
             --timeu-wizard-filling-color: red;<br>
             --timeu-wizard-anim-speed: 1s;<br>
             --timeu-wizard-active-color: blue;<br>

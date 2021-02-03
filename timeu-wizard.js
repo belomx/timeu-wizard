@@ -36,18 +36,21 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
          top:0;
          left: 50%;
          height: calc(100% - var(--timeu-wizard-circle-size,40px));
+	 @apply --timeu-wizard-list-item-label;
        }
       
        :host([vertical][right]) .label {
 	 position: absolute;
          top: 0.3em;
-         right: 0;
+	 transform: translateX(var(--timeu-wizard-circle-size,40px));
+	 @apply --timeu-wizard-list-item-right-label;
        }
 
        :host([vertical][left]) .label {
 	 position: absolute;
          top: 0.3em;
-         left: 0;
+         transform: translateX(calc(-2 * var(--timeu-wizard-circle-size,40px)));
+	 @apply --timeu-wizard-list-item-left-label;
        }
 
        ul {
@@ -72,7 +75,7 @@ class TimeuWizard extends GestureEventListeners(PolymerElement) {
        }
        
        #filling {
-         background-color: var(--timeu-wizard-filling-color,#2db36f);
+         background-color: var(--timeu-wizard-line-filling-color, var(--timeu-wizard-filling-color ,#2db36f));
          -webkit-transition: -webkit-transform var(--timeu-wizard-anim-speed,0.5s);
          -moz-transition: -moz-transform var(--timeu-wizard-anim-speed,0.5s);
          transition: transform var(--timeu-wizard-anim-speed,0.5s);

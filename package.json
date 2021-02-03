@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/belomx/timeu-wizard/",
   "name": "@belomx/timeu-wizard",
-  "version": "1.7.13",
+  "version": "1.7.14",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",

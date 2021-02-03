@@ -39,6 +39,7 @@ Custom property | Description | Default
 ----------------|-------------|----------
 `--timeu-wizard-line-color` | The color of the line  | `#dfdfdf`
 `--timeu-wizard-line-size` | The thickness of the line | `1px`
+`--timeu-wizard-line-filling-color` | The color of the of the line when is filled | `#2db36f`
 `--timeu-wizard-circle-size` | The size of the circle | `40px`
 `--timeu-wizard-filling-color` | The collor of the filling of the line | `#2db36f`
 `--timeu-wizard-anim-speed` | The animation speed for the circles and lines | `0.5s`
@@ -54,3 +55,7 @@ Custom property | Description | Default
 `--timeu-wizard-list-item-done` | Mixin applied to each done step | {}
 `--timeu-wizard-list-item-icon` | Mixin applied to each step icon | {}
 `--timeu-wizard-list-item-checkicon` | Mixin applied to each done step icon | {}
+`--timeu-wizard-list-item-label` | Mixin applied to each item label | {}
+`--timeu-wizard-list-item-right-label` | Mixin applied to each item right label | {}
+`--timeu-wizard-list-item-left-label` | Mixin applied to each item left label | {}
+
